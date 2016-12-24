@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println(isomorphicStrings.isoStrings("foo", "bar"));
 //        stringRotate.stringRotate("the sky is blue");
+
+        System.out.println("--over--");
     }
 }
