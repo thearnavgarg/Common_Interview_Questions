@@ -12,9 +12,9 @@ public class Main {
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
 
-        System.out.println(wordLadder.wordLadder("hit", "cog", new String[] {"hot","dot","dog","lot","log"}));
+//        System.out.println(wordLadder.wordLadder("hit", "cog", new String[] {"hot","dot","dog","lot","log"}));
 
-//        System.out.println(isomorphicStrings.isoStrings("foo", "bar"));
+        System.out.println(isomorphicStrings.isoStrings("foo", "bar"));
 //        stringRotate.stringRotate("the sky is blue");
     }
 }
