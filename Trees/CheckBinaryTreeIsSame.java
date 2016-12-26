@@ -3,7 +3,7 @@ package Trees;
 /**
  * Created by arnav on 12/25/2016.
  */
-public class CheckBinaryTreeSame {
+public class CheckBinaryTreeIsSame {
 
 
     /**

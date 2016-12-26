@@ -1,12 +1,14 @@
 package Trees;
 
+import java.util.ArrayList;
+
 /**
  * Created by arnav on 12/25/2016.
  */
 public class RootToLeafSum {
 
 
-    public boolean root2LeafSum(Node root, int sum) {
+    public boolean root2LeafSum(Node root, int sum, ArrayList<Integer> result) {
 
         if (root == null) {
             return false;
@@ -15,6 +17,7 @@ public class RootToLeafSum {
         if(root.left == null && root.right == null) {
 
             if (sum == root.data) {
+                result.add(root.data);
                 return true;
             } else {
                 return false;
@@ -23,7 +26,12 @@ public class RootToLeafSum {
 
         sum -= root.data;
 
-        return root2LeafSum(root.left, sum) || root2LeafSum(root.right, sum);
+        if (root2LeafSum(root.left, sum, result) || root2LeafSum(root.right, sum, result)) {
+            result.add(root.data);
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public void run() {
@@ -38,7 +46,13 @@ public class RootToLeafSum {
         root.right.left = new Node(11);
         root.right.right = new Node(15);
 
-        boolean answer = root2LeafSum(root, 34);
+        ArrayList<Integer> result = new ArrayList<>();
+        boolean answer = root2LeafSum(root, 34, result);
+
+        for (Integer value : result) {
+
+            System.out.println(value + " ");
+        }
 
         System.out.println(answer);
 
