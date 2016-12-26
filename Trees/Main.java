@@ -1,5 +1,7 @@
 package Trees;
 
+import com.sun.glass.ui.Size;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -9,7 +11,9 @@ public class Main {
         HeightOfATree heightOfATree = new HeightOfATree();
         IsBinaryTree isBinaryTree = new IsBinaryTree();
         CheckBinaryTreeSame checkBinaryTreeSame = new CheckBinaryTreeSame();
+        SizeOfBinaryTree sizeOfBinaryTree = new SizeOfBinaryTree();
+        RootToLeafSum rootToLeafSum = new RootToLeafSum();
 
-        checkBinaryTreeSame.run();
+        rootToLeafSum.run();
     }
 }
