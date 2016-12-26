@@ -6,7 +6,7 @@ public class Main {
 
         HeightOfATree heightOfATree = new HeightOfATree();
         IsBinaryTree isBinaryTree = new IsBinaryTree();
-        CheckBinaryTreeIsSame checkBinaryTreeSame = new CheckBinaryTreeIsSame();
+        CheckBinaryTreesAreSame checkBinaryTreeSame = new CheckBinaryTreesAreSame();
         SizeOfBinaryTree sizeOfBinaryTree = new SizeOfBinaryTree();
         RootToLeafSum rootToLeafSum = new RootToLeafSum();
         ReverseLevelOrderTraversal reverseLevelOrderTraversal = new ReverseLevelOrderTraversal();
