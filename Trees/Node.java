@@ -9,10 +9,10 @@ public class Node {
     public Node left;
     public Node right;
 
-    public Node(int data, Node left, Node right) {
+    public Node(int data) {
 
         this.data = data;
-        this.left = left;
-        this.right = right;
+        this.left = null;
+        this.right = null;
     }
 }
