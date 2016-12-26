@@ -6,6 +6,17 @@ package Trees;
 public class IsBinaryTree {
 
 
+    /**
+     * We first check if the node is a null or not. return true if it is because a null node is a binary tree.
+     * we then check for the faulty case where we check if the node's value is outside of the min and max value. if it
+     * is then we return false and as the return clause has an 'and', the function will end up returning a false else it
+     * would return a true.
+     *
+     * @param root : initial root value of the tree.
+     * @param min : min value a particular node can have
+     * @param max : max value a particular node can have.
+     * @return boolean value that gives the answer.
+     */
     public boolean isBinary(Node root, int min, int max) {
 
         if (root == null) {

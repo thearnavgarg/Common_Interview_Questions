@@ -6,6 +6,18 @@ package Trees;
 public class CheckBinaryTreeSame {
 
 
+    /**
+     *
+     * This function first checks if both the roots reach the null at the same time. If they do, it returns a true.
+     * After that check, if either of them is a null, then the next 'if-loop' will return a false;
+     *
+     * After we have verified that none of the nodes that we are checking are null, then we check if the values of the
+     * nodes are different. If not, we more further down the tree.
+     *
+     * @param root1 : root of the first tree
+     * @param root2 : root of the second tree
+     * @return boolean value which is the answer.
+     */
     public boolean checkBinaryTreeSame(Node root1, Node root2) {
 
         if(root1 == null && root2 == null) {
