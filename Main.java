@@ -9,7 +9,7 @@ import Trees.*;
  */
 public class Main {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         //Trees.
         HeightOfATree heightOfATree = new HeightOfATree();
@@ -19,12 +19,17 @@ public class Main {
         RootToLeafSum rootToLeafSum = new RootToLeafSum();
         ReverseLevelOrderTraversal reverseLevelOrderTraversal = new ReverseLevelOrderTraversal();
         LevelOrderTraversalSpiralOrder levelOrderTraversalSpiralOrder = new LevelOrderTraversalSpiralOrder();
+        LowestCommonAncestorBST lowestCommonAncestorBST = new LowestCommonAncestorBST();
+        LowestCommonAncestorBT lowestCommonAncestorBT = new LowestCommonAncestorBT();
+        PostOrderWithOneStack postOrderWithOneStack = new PostOrderWithOneStack();
 
         //Strings.
         RotateArray rotateArray = new RotateArray();
         StringRotate stringRotate = new StringRotate();
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
+
+        postOrderWithOneStack.run();
 
     }
 }
