@@ -1,6 +1,4 @@
-package StringArray;
-
-import java.util.ArrayList;
+package Java.StringArray;
 
 /**
  * Created by arnav on 11/22/16.

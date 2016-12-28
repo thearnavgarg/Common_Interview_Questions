@@ -1,4 +1,4 @@
-package Trees;
+package Java.Trees;
 
 /**
  * Created by arnav on 12/26/2016.

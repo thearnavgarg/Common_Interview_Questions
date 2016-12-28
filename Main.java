@@ -1,8 +1,8 @@
-import StringArray.IsomorphicStrings;
-import StringArray.RotateArray;
-import StringArray.StringRotate;
-import StringArray.WordLadder;
-import Trees.*;
+import Java.StringArray.IsomorphicStrings;
+import Java.StringArray.RotateArray;
+import Java.StringArray.StringRotate;
+import Java.StringArray.WordLadder;
+import Java.Trees.*;
 
 /**
  * Created by arnav on 12/26/2016.
@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Trees.
+        //java.Trees.
         HeightOfATree heightOfATree = new HeightOfATree();
         IsBinaryTree isBinaryTree = new IsBinaryTree();
         CheckBinaryTreesAreSame checkBinaryTreeSame = new CheckBinaryTreesAreSame();
@@ -29,7 +29,7 @@ public class Main {
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
 
-        postOrderWithOneStack.run();
+        lowestCommonAncestorBST.run();
 
     }
 }
