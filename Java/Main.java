@@ -1,3 +1,5 @@
+package Java;
+
 import Java.StringArray.IsomorphicStrings;
 import Java.StringArray.RotateArray;
 import Java.StringArray.StringRotate;
