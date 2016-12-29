@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 import java.util.Stack;
 
@@ -9,10 +9,11 @@ import java.util.Stack;
  */
 public class LevelOrderTraversalSpiralOrder {
 
-    public void levelOrderTraversalSpiralOrder(Node root) {
 
-        Stack<Node> stack1 = new Stack<>();
-        Stack<Node> stack2 = new Stack<>();
+    public void levelOrderTraversalSpiralOrder(TreeNode root) {
+
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
 
         stack1.add(root);
 
@@ -20,30 +21,30 @@ public class LevelOrderTraversalSpiralOrder {
 
             while(!stack1.isEmpty()) {
 
-                Node currentNode = stack1.pop();
-                System.out.println(currentNode.data);
+                TreeNode currentTreeNode = stack1.pop();
+                System.out.println(currentTreeNode.data);
 
-                if (currentNode.left != null) {
-                    stack2.push(currentNode.left);
+                if (currentTreeNode.left != null) {
+                    stack2.push(currentTreeNode.left);
                 }
 
-                if (currentNode.right != null) {
-                    stack2.push(currentNode.right);
+                if (currentTreeNode.right != null) {
+                    stack2.push(currentTreeNode.right);
                 }
 
             }
 
             while(!stack2.isEmpty()) {
 
-                Node currentNode = stack2.pop();
-                System.out.println(currentNode.data);
+                TreeNode currentTreeNode = stack2.pop();
+                System.out.println(currentTreeNode.data);
 
-                if (currentNode.right != null) {
-                    stack1.push(currentNode.right);
+                if (currentTreeNode.right != null) {
+                    stack1.push(currentTreeNode.right);
                 }
 
-                if (currentNode.left != null) {
-                    stack1.push(currentNode.left);
+                if (currentTreeNode.left != null) {
+                    stack1.push(currentTreeNode.left);
                 }
             }
         }
@@ -52,15 +53,15 @@ public class LevelOrderTraversalSpiralOrder {
 
     public void run() {
 
-        Node root = new Node(10);
+        TreeNode root = new TreeNode(10);
 
-        root.left = new Node(20);
-        root.right = new Node(30);
+        root.left = new TreeNode(20);
+        root.right = new TreeNode(30);
 
-        root.left.left = new Node(40);
-        root.left.right = new Node(50);
+        root.left.left = new TreeNode(40);
+        root.left.right = new TreeNode(50);
 
-        root.right.right = new Node(60);
+        root.right.right = new TreeNode(60);
 
         levelOrderTraversalSpiralOrder(root);
     }

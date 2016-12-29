@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -11,27 +11,27 @@ import java.util.Stack;
  */
 public class ReverseLevelOrderTraversal {
 
-    public void reverseLevelOrderTraversal(Node root) {
+    public void reverseLevelOrderTraversal(TreeNode root) {
 
-        Stack<Node> stack = new Stack<>();
-        Queue<Node> queue = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        Queue<TreeNode> queue = new LinkedList<>();
 
         queue.offer(root);
 
         while(!queue.isEmpty()) {
 
-            Node currentNode = queue.poll();
+            TreeNode currentTreeNode = queue.poll();
 
-            stack.push(currentNode);
+            stack.push(currentTreeNode);
 
-            if (currentNode.right != null) {
+            if (currentTreeNode.right != null) {
 
-                queue.offer(currentNode.right);
+                queue.offer(currentTreeNode.right);
             }
 
-            if (currentNode.left != null) {
+            if (currentTreeNode.left != null) {
 
-                queue.offer(currentNode.left);
+                queue.offer(currentTreeNode.left);
             }
         }
 
@@ -45,15 +45,15 @@ public class ReverseLevelOrderTraversal {
 
     public void run() {
 
-        Node root = new Node(10);
+        TreeNode root = new TreeNode(10);
 
-        root.left = new Node(20);
-        root.right = new Node(30);
+        root.left = new TreeNode(20);
+        root.right = new TreeNode(30);
 
-        root.left.left = new Node(40);
-        root.left.right = new Node(50);
+        root.left.left = new TreeNode(40);
+        root.left.right = new TreeNode(50);
 
-        root.right.right = new Node(60);
+        root.right.right = new TreeNode(60);
 
         reverseLevelOrderTraversal(root);
 

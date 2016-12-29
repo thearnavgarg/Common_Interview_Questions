@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class RootToLeafSum {
 
 
-    public boolean root2LeafSum(Node root, int sum, ArrayList<Integer> result) {
+    public boolean root2LeafSum(TreeNode root, int sum, ArrayList<Integer> result) {
 
         if (root == null) {
             return false;
@@ -38,15 +38,15 @@ public class RootToLeafSum {
 
     public void run() {
 
-        Node root = new Node(10);
+        TreeNode root = new TreeNode(10);
 
-        root.left = new Node(5);
-        root.right = new Node(13);
+        root.left = new TreeNode(5);
+        root.right = new TreeNode(13);
 
-        root.left.left = new Node(4);
+        root.left.left = new TreeNode(4);
 
-        root.right.left = new Node(11);
-        root.right.right = new Node(15);
+        root.right.left = new TreeNode(11);
+        root.right.right = new TreeNode(15);
 
         ArrayList<Integer> result = new ArrayList<>();
         boolean answer = root2LeafSum(root, 34, result);

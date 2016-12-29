@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 /**
  * Created by arnav on 12/26/2016.
@@ -8,7 +8,7 @@ import Java.Node;
 public class LowestCommonAncestorBST {
 
 
-    public Node lowestCommonAncestorBST(Node root, int data1, int data2) {
+    public TreeNode lowestCommonAncestorBST(TreeNode root, int data1, int data2) {
 
         if(root == null) {
             return null;
@@ -31,17 +31,17 @@ public class LowestCommonAncestorBST {
 
     public void run() {
 
-        Node root = new Node(10);
+        TreeNode root = new TreeNode(10);
 
-        root.left = new Node(5);
-        root.right = new Node(13);
+        root.left = new TreeNode(5);
+        root.right = new TreeNode(13);
 
-        root.left.left = new Node(4);
+        root.left.left = new TreeNode(4);
 
-        root.right.left = new Node(11);
-        root.right.right = new Node(15);
+        root.right.left = new TreeNode(11);
+        root.right.right = new TreeNode(15);
 
-        Node answer = lowestCommonAncestorBST(root, 15,11);
+        TreeNode answer = lowestCommonAncestorBST(root, 15,11);
 
         if(answer != null) {
 

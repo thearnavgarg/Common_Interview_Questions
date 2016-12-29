@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 /**
  * Created by arnav on 12/25/2016.
@@ -19,7 +19,7 @@ public class IsBinaryTree {
      * @param max : max value a particular node can have.
      * @return boolean value that gives the answer.
      */
-    public boolean isBinary(Node root, int min, int max) {
+    public boolean isBinary(TreeNode root, int min, int max) {
 
         if (root == null) {
             return true;
@@ -41,15 +41,15 @@ public class IsBinaryTree {
         *    4          11      15
         * */
 
-        Node root = new Node(10);
+        TreeNode root = new TreeNode(10);
 
-        root.left = new Node(5);
-        root.right = new Node(13);
+        root.left = new TreeNode(5);
+        root.right = new TreeNode(13);
 
-        root.left.left = new Node(4);
+        root.left.left = new TreeNode(4);
 
-        root.right.left = new Node(11);
-        root.right.right = new Node(1);
+        root.right.left = new TreeNode(11);
+        root.right.right = new TreeNode(1);
 
         System.out.println(isBinary(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
     }

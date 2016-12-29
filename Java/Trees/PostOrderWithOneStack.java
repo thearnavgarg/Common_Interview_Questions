@@ -1,6 +1,6 @@
 package Java.Trees;
 
-import Java.Node;
+import Java.TreeNode;
 
 import java.util.Stack;
 
@@ -9,10 +9,10 @@ import java.util.Stack;
  */
 public class PostOrderWithOneStack {
 
-    public void postOrderOneStack(Node root) {
+    public void postOrderOneStack(TreeNode root) {
 
-        Stack<Node> stack = new Stack<>();
-        Node current;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode current;
 
         stack.push(root);
         current = root.left;
@@ -26,10 +26,10 @@ public class PostOrderWithOneStack {
                 current = current.left;
             } else {
 
-                Node node = stack.pop();
-                System.out.println(node.data);
+                TreeNode treeNode = stack.pop();
+                System.out.println(treeNode.data);
 
-                if(stack.peek().right != node) {
+                if(stack.peek().right != treeNode) {
 
                     current = stack.peek().right;
                 } else {
@@ -43,16 +43,16 @@ public class PostOrderWithOneStack {
 
     public void run() {
 
-        Node root = new Node(1);
-        root.left = new Node(2);
-        root.right = new Node(3);
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
 
-        root.left.left = new Node(4);
-        root.left.right = new Node(5);
-        root.right.left = new Node(6);
-        root.right.right = new Node(7);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(7);
 
-        root.left.left.left = new Node(8);
+        root.left.left.left = new TreeNode(8);
 
         postOrderOneStack(root);
     }
