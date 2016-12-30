@@ -26,6 +26,7 @@ public class Main {
         PostOrderWithOneStack postOrderWithOneStack = new PostOrderWithOneStack();
         LargestBSTSubtree largestBSTSubtree = new LargestBSTSubtree();
         FixBST fixBST = new FixBST();
+        TreesHavingKLeaves treesHavingKLeaves = new TreesHavingKLeaves();
 
         //Strings.
         RotateArray rotateArray = new RotateArray();
@@ -33,7 +34,7 @@ public class Main {
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
 
-        fixBST.run();
+        treesHavingKLeaves.run();
 
     }
 }
