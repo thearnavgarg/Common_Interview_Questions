@@ -7,7 +7,6 @@ import Java.TreeNode;
  */
 public class LowestCommonAncestorBST {
 
-
     public TreeNode lowestCommonAncestorBST(TreeNode root, int data1, int data2) {
 
         if(root == null) {

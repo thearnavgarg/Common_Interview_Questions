@@ -24,6 +24,7 @@ public class Main {
         LowestCommonAncestorBST lowestCommonAncestorBST = new LowestCommonAncestorBST();
         LowestCommonAncestorBT lowestCommonAncestorBT = new LowestCommonAncestorBT();
         PostOrderWithOneStack postOrderWithOneStack = new PostOrderWithOneStack();
+        LargestBSTSubtree largestBSTSubtree = new LargestBSTSubtree();
 
         //Strings.
         RotateArray rotateArray = new RotateArray();
@@ -31,7 +32,7 @@ public class Main {
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
 
-        lowestCommonAncestorBST.run();
+        largestBSTSubtree.run();
 
     }
 }

@@ -16,7 +16,6 @@ public class SizeOfBinaryTree {
         return 1 + sizeOfBinaryTree(root.left) + sizeOfBinaryTree(root.right);
     }
 
-
     public void run() {
 
 
