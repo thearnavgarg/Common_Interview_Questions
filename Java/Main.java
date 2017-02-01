@@ -1,9 +1,6 @@
 package Java;
 
-import Java.StringArray.IsomorphicStrings;
-import Java.StringArray.RotateArray;
-import Java.StringArray.StringRotate;
-import Java.StringArray.WordLadder;
+import Java.StringArray.*;
 import Java.Trees.*;
 
 /**
@@ -28,13 +25,16 @@ public class Main {
         FixBST fixBST = new FixBST();
         TreesHavingKLeaves treesHavingKLeaves = new TreesHavingKLeaves();
 
+
+
         //Strings.
         RotateArray rotateArray = new RotateArray();
         StringRotate stringRotate = new StringRotate();
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
         WordLadder wordLadder = new WordLadder();
+        PermutationPalindrome permutationPalindrome = new PermutationPalindrome();
 
-        treesHavingKLeaves.run();
+        System.out.println(permutationPalindrome.PermutationPalindrome("arnav garg"));
 
     }
 }
