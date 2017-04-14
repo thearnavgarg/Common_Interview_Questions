@@ -24,13 +24,10 @@ public class IsBinaryTree {
         if (root == null) {
             return true;
         }
-
         if (root.data < min || root.data > max) {
             return false;
         }
-
         return isBinary(root.left, min, root.data) && isBinary(root.right, root.data, max);
-
     }
 
     public void run() {
