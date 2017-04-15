@@ -6,7 +6,7 @@ def is_permutation(string1, string2):
 	char_dict = {}
 	# Filling our dictionary with the first string characters.
 	for char in string1:
-		if char_dict.has_key(char):
+		if char in char_dict:
 			char_dict[char] = char_dict[char]+1
 		else:
 			char_dict[char] = 1
@@ -14,7 +14,7 @@ def is_permutation(string1, string2):
 	# Checking for the next string.
 	for char in string2:
 		# Checking if the char is on the dictionary.
-		if char_dict.has_key(char):
+		if char in char_dict:
 			# removing one occurance of the character from the dictionary
 			char_dict[char] = char_dict[char]-1
 			# If no more occurances are left.. delete the key, value pair.
