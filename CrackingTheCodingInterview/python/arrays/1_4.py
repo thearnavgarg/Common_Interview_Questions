@@ -1,7 +1,7 @@
 '''
 Time complexity: O(n)
 '''
-def permutation_permutation(string):
+def palindrome_permutation(string):
 	my_dict = {}
 	odd_tracker = 0
 	# going over each value and adding it to the dictionary.
@@ -26,7 +26,7 @@ def permutation_permutation(string):
 
 def main():
 	string = raw_input().lower()
-	print( permutation_permutation(string) )
+	print( palindrome_permutation(string) )
 
 if (__name__ == '__main__'):
 	main()
