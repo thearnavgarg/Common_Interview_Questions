@@ -3,7 +3,7 @@ package Java.Trees;
 import Java.TreeNode;
 
 /**
- * Created by arnav on 12/25/2016.
+ * @author: Arnav Garg
  */
 public class IsBinaryTree {
 

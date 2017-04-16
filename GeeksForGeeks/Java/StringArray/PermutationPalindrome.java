@@ -1,7 +1,7 @@
 package Java.StringArray;
 
 /**
- * Created by arnav on 2/1/2017.
+ * @author: Arnav Garg
  */
 public class PermutationPalindrome {
 

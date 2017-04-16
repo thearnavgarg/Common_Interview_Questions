@@ -1,7 +1,7 @@
 package Java;
 
 /**
- * Created by arnav on 12/22/16.
+ * @author: Arnav Garg
  */
 public class TreeNode {
 

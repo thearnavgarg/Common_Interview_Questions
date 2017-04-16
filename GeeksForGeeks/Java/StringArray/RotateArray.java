@@ -1,7 +1,7 @@
 package Java.StringArray;
 
 /**
- * Created by arnav on 11/22/16.
+ * @author: Arnav Garg
  */
 
 /*
