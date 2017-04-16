@@ -1,4 +1,6 @@
 '''
+@author: Arnav Garg
+
 Time Complexity (With Addtnl DS): O(n)
 Space Complexity (With Addtnl DS): O(n)
 
@@ -21,7 +23,7 @@ def without_addtnl_ds(string):
 def with_addtnl_ds(string):
     unique_dict = {}
     # for each char we check if it has already been seen before
-    # and if it has, then return F 		alse.
+    # and if it has, then return False.
     for char in string:
         if unique_dict.has_key(char):
         	return False

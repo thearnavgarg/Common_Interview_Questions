@@ -1,4 +1,6 @@
 '''
+@author: Arnav Garg
+
 Time complexity: O(n)
 '''
 def palindrome_permutation(string):
