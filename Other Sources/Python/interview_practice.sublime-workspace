@@ -1,0 +1,936 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"CompanyName"
+			],
+			[
+				"Com",
+				"CompanyID"
+			],
+			[
+				"COMPANY",
+				"COMPANY"
+			],
+			[
+				"ROLE",
+				"ROLE"
+			],
+			[
+				"CO",
+				"COMPANY"
+			],
+			[
+				"Comp",
+				"CompanyName"
+			],
+			[
+				"A",
+				"APPLICATION"
+			],
+			[
+				"USER",
+				"USERS"
+			],
+			[
+				"S",
+				"SubscriptionType"
+			],
+			[
+				"Appl",
+				"ApplicationID"
+			],
+			[
+				"COma",
+				"CompanyID"
+			],
+			[
+				"Contact",
+				"ContactID"
+			],
+			[
+				"DE",
+				"DEFAULT"
+			],
+			[
+				"U",
+				"UPDATE"
+			],
+			[
+				"string",
+				"string_list"
+			],
+			[
+				"s",
+				"string"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"char",
+				"char_dict"
+			],
+			[
+				"al",
+				"alpha_map"
+			],
+			[
+				"wih",
+				"without_addtnl_ds"
+			],
+			[
+				"message",
+				"message_body"
+			],
+			[
+				"login",
+				"login_info"
+			],
+			[
+				"passw",
+				"password_match"
+			],
+			[
+				"user",
+				"userdetails"
+			],
+			[
+				"m",
+				"m_dict"
+			],
+			[
+				"sub",
+				"subexpression"
+			],
+			[
+				"res",
+				"result_not_alpha"
+			],
+			[
+				"ex",
+				"expression"
+			],
+			[
+				"not",
+				"not_tag"
+			],
+			[
+				"print",
+				"print_expression"
+			],
+			[
+				"valid",
+				"valid_expression"
+			],
+			[
+				"read",
+				"read_expression"
+			],
+			[
+				"extend",
+				"extend_model"
+			],
+			[
+				"subexr",
+				"subexpression"
+			],
+			[
+				"bool",
+				"bool_value"
+			],
+			[
+				"expres",
+				"expression"
+			],
+			[
+				"knw",
+				"knowledge_base"
+			],
+			[
+				"c",
+				"connective"
+			],
+			[
+				"ko",
+				"knowledge_base"
+			],
+			[
+				"know",
+				"knowledge_base"
+			],
+			[
+				"kno",
+				"knowledge_base"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"Albu",
+				"AlbumDetail"
+			],
+			[
+				"render",
+				"renderAlbums"
+			],
+			[
+				"View",
+				"viewStyle"
+			],
+			[
+				"App",
+				"AppRegistry"
+			],
+			[
+				"reactN",
+				"ReactNative"
+			],
+			[
+				"data",
+				"dataOutputStream"
+			],
+			[
+				"prac",
+				"practiceRound"
+			],
+			[
+				"val",
+				"valueM"
+			],
+			[
+				"va",
+				"valueM"
+			],
+			[
+				"complet",
+				"completionEmail"
+			],
+			[
+				"comple",
+				"completionEmail"
+			],
+			[
+				"file",
+				"filegroup"
+			],
+			[
+				"rec",
+				"receive"
+			],
+			[
+				"re",
+				"receive"
+			],
+			[
+				"en",
+				"encryption"
+			],
+			[
+				"enc",
+				"encryped"
+			],
+			[
+				"encr",
+				"encrypt"
+			],
+			[
+				"ar",
+				"array_pos"
+			],
+			[
+				"as",
+				"ascending"
+			],
+			[
+				"test",
+				"testcases_asc"
+			],
+			[
+				"inde",
+				"index_result"
+			],
+			[
+				"TEST",
+				"ASC_TESTCASES_NUM"
+			],
+			[
+				"index",
+				"index_results"
+			],
+			[
+				"testcas",
+				"testcases_asc"
+			],
+			[
+				"testca",
+				"testcases_t"
+			],
+			[
+				"Fo",
+				"FoundLess"
+			],
+			[
+				"array",
+				"array_bound"
+			],
+			[
+				"arr",
+				"array_bound"
+			],
+			[
+				"Foun",
+				"FoundGreater"
+			],
+			[
+				"arrd",
+				"arrd"
+			],
+			[
+				"Found",
+				"FoundExact"
+			],
+			[
+				"Les",
+				"LessThanEquals"
+			],
+			[
+				"arra",
+				"array_bound"
+			],
+			[
+				"n_items",
+				"n_items-1"
+			],
+			[
+				"n",
+				"n_items"
+			],
+			[
+				"Greater",
+				"GreaterThan"
+			],
+			[
+				"Less",
+				"LessThan"
+			],
+			[
+				"questio",
+				"questionTimer"
+			],
+			[
+				"end",
+				"endgame"
+			],
+			[
+				"answer",
+				"answerview"
+			],
+			[
+				"so",
+				"sorryFirefoxUsers"
+			],
+			[
+				"game",
+				"gameCurrentStage"
+			],
+			[
+				"playerda",
+				"playerdata"
+			],
+			[
+				"hint",
+				"hintdetails"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"de",
+				"decrypt"
+			],
+			[
+				"hash",
+				"hashword"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pro",
+				"program_name"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"log",
+				"log_name"
+			],
+			[
+				"start",
+				"start_value"
+			],
+			[
+				"pid",
+				"pid_num"
+			],
+			[
+				"pd",
+				"pid_num"
+			],
+			[
+				"get",
+				"getpid"
+			],
+			[
+				"pi",
+				"pid_v"
+			],
+			[
+				"th",
+				"thread_count"
+			],
+			[
+				"START",
+				"start_index"
+			],
+			[
+				"fork",
+				"fork_flag"
+			],
+			[
+				"num",
+				"numbers"
+			],
+			[
+				"nu",
+				"number_of_lines"
+			],
+			[
+				"tem",
+				"tempData"
+			],
+			[
+				"Data",
+				"DATA_SIZE"
+			],
+			[
+				"ran",
+				"randomData"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"pr",
+				"process_time"
+			],
+			[
+				"pt",
+				"pthread_exit"
+			],
+			[
+				"how",
+				"howMany"
+			],
+			[
+				"DAT",
+				"DATA_SIZE"
+			],
+			[
+				"da",
+				"DATA_SIZE"
+			],
+			[
+				"ma",
+				"mag"
+			],
+			[
+				"mag",
+				"magnitude_numbers"
+			],
+			[
+				"ret",
+				"returnValue"
+			],
+			[
+				"Da",
+				"DATA_SIZE"
+			],
+			[
+				"N",
+				"NTHREADS"
+			],
+			[
+				"exit",
+				"exit_status"
+			],
+			[
+				"pthread",
+				"pthread_join"
+			],
+			[
+				"pthe",
+				"pthread_t"
+			],
+			[
+				"sem",
+				"sem_init"
+			],
+			[
+				"DA",
+				"DATA_SIZE"
+			],
+			[
+				"event_loc_",
+				"event_loc_city"
+			],
+			[
+				"even",
+				"event_loc"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 156.0,
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/arnav/Desktop/Common_Interview_Questions/Other Sources/Python/circular_counter.py",
+		"/home/arnav/Desktop/algorithms/array/circular_counter.py",
+		"/home/arnav/Desktop/algorithms/array/merge_intervals.py",
+		"/home/arnav/Desktop/algorithms/array/longest_non_repeat.py",
+		"/home/arnav/Desktop/algorithms/array/garage.py",
+		"/home/arnav/Desktop/algorithms/array/flatten.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/Other Sources/Java/Trees/IsBinaryTree.java",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Bayesian Network/task2.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Bayesian Network/task3.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Bayesian Network/training_data.txt",
+		"/home/arnav/Desktop/Team207_phase3/txt files/dbSQL.txt",
+		"/home/arnav/Desktop/Team207_phase3/txt files/dbDROP.txt",
+		"/home/arnav/Desktop/Team207_phase3/txt files/dbDML.txt",
+		"/home/arnav/Desktop/Team207_phase3/txt files/dbDDL.txt",
+		"/home/arnav/Desktop/Team207_phase3/sql files/dbDDL.sql",
+		"/home/arnav/Desktop/Team207_phase3/sql files/dbDML.sql",
+		"/home/arnav/Desktop/Team207_phase3/sql files/dbDROP.sql",
+		"/home/arnav/Desktop/Team207_phase3/sql files/dbSQL.sql",
+		"/home/arnav/Downloads/Team207_phase3/Team207_phase3/sql files/dbDDL.sql",
+		"/home/arnav/Downloads/Team207_phase3/Team207_phase3/sql files/dbDML.sql",
+		"/home/arnav/Downloads/Team207_phase3/Team207_phase3/sql files/dbDROP.sql",
+		"/home/arnav/Downloads/Team207_phase3/Team207_phase3/sql files/dbSQL.sql",
+		"/home/arnav/Downloads/Team207_phase3/Team207_phase3/sql files/databasefiller.py",
+		"/home/arnav/Desktop/Team207_phase3/Team207_phase3.docx",
+		"/home/arnav/Desktop/phase3/dbDDL.sql",
+		"/home/arnav/Desktop/phase3/dbDROP.sql",
+		"/home/arnav/Desktop/phase3/databasefiller.py",
+		"/home/arnav/Desktop/phase3/previous year scripts/SQL_Script4.txt",
+		"/home/arnav/Desktop/phase3/dbDML.sql",
+		"/home/arnav/Desktop/phase3/DDLScript.txt",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/python/arrays/1_4.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/1_1.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/1_2.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/1_3.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/1_4.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/README.txt",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/python/1_4.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/python/1_3.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/python/1_2.py",
+		"/home/arnav/Desktop/Common_Interview_Questions/CrackingTheCodingInterview/arrays/python/1_1.py",
+		"/home/arnav/Downloads/assignment8_axg9593/message.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterior Probabilities/compute_a_posteriori.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterior Probabilities/result.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/result.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/posterior_prob.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/compute_a_posteriori.java",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/Hypothesis.java",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/results.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Route Finding Algorithm/README.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Route Finding Algorithm/find_route.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/Posterier Probabilities/prosprob.cc",
+		"/home/arnav/Desktop/Common_Interview_Questions/C++/tree_questions.cc",
+		"/home/arnav/Desktop/Common_Interview_Questions/C++/tree_questions.h",
+		"/home/arnav/Desktop/Common_Interview_Questions/Java/Trees/IsBinaryTree.java",
+		"/home/arnav/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/arnav/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/arnav/Desktop/albums/index.android.js",
+		"/home/arnav/Desktop/albums/__tests__/index.android.js",
+		"/home/arnav/Desktop/appfly/routes/GET/index.js",
+		"/home/arnav/Desktop/appfly/views/partials/head.ejs",
+		"/home/arnav/Desktop/appfly/views/partials/header_homepage.ejs",
+		"/home/arnav/Desktop/appfly/views/pages/homepage.ejs",
+		"/home/arnav/Desktop/appfly/views/pages/register.ejs",
+		"/home/arnav/Desktop/appfly/views/pages/login.ejs",
+		"/home/arnav/Desktop/appfly/views/partials/header_user.ejs",
+		"/home/arnav/Desktop/appfly/views/pages/dashboard.ejs",
+		"/home/arnav/Desktop/appfly/README.md",
+		"/home/arnav/Desktop/appfly/views/pages/base.ejs",
+		"/home/arnav/Desktop/appfly/routes/POST/index.js",
+		"/home/arnav/Desktop/appfly/views/register.ejs",
+		"/home/arnav/Desktop/appfly/views/login.ejs",
+		"/home/arnav/Desktop/appfly/views/homepage.ejs",
+		"/home/arnav/Desktop/appfly/misc/template_strings.js",
+		"/home/arnav/Desktop/appfly/routes/index.js",
+		"/home/arnav/Desktop/appfly/misc/config_files/template_strings.js",
+		"/home/arnav/Desktop/appfly/views/dashboard.ejs",
+		"/home/arnav/Desktop/appfly/misc/config_files/database_config.js",
+		"/home/arnav/Desktop/appfly/views/base.ejs",
+		"/home/arnav/Desktop/appfly/views/error.ejs",
+		"/home/arnav/Desktop/appfly/views/index.jade",
+		"/home/arnav/Desktop/appfly/views/base.jade",
+		"/home/arnav/Desktop/appfly/package.json",
+		"/home/arnav/Desktop/appfly/scripts/database/config.js",
+		"/home/arnav/Desktop/appfly/scripts/database/create_database.js",
+		"/home/arnav/Desktop/appfly/database/config.js",
+		"/home/arnav/Desktop/appfly/app.js",
+		"/home/arnav/Desktop/appfly/auth/config.js",
+		"/home/arnav/Desktop/appfly/auth/github.js",
+		"/home/arnav/Desktop/appfly/routes/login.js",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/logical_expression.py",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/check_true_false.py",
+		"/home/arnav/Desktop/LogicalExpression.java",
+		"/home/arnav/Desktop/CheckTrueFalse.java",
+		"/home/arnav/Desktop/assignment6_axg9539/README.txt",
+		"/home/arnav/Desktop/assignment6_axg9539/wumpus_rules.txt",
+		"/home/arnav/Desktop/assignment6_axg9539/result.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/a.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/d.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/e.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/f.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/wumpus_rules.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/debug4.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/debug3.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/debug2.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/debug1.txt",
+		"/home/arnav/Desktop/CSE4308-Artificial-Intelligence/PL Inference Engine/README.txt",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/intro.html",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/footer.html",
+		"/home/arnav/Desktop/hackuta.github.io/_layouts/home.html",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/sponsors.html",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/faq.html",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/map.html",
+		"/home/arnav/Desktop/hackuta.github.io/css/styles.scss",
+		"/home/arnav/Desktop/hackuta.github.io/_includes/header.html",
+		"/home/arnav/Desktop/hackuta.github.io/index.md",
+		"/home/arnav/Desktop/hackuta.github.io/_site/index.html",
+		"/home/arnav/Desktop/hackuta.github.io/_site/css/styles.css",
+		"/home/arnav/Desktop/hackuta.github.io/_site/bower_components/bootstrap/dist/css/bootstrap.min.css",
+		"/home/arnav/Desktop/hackuta.github.io/_posts/2017-02-27-welcome-to-jekyll.markdown",
+		"/home/arnav/Desktop/albums/src/components/Header.js",
+		"/home/arnav/Desktop/albums/src/components/CardSection.js",
+		"/home/arnav/Desktop/albums/src/components/Card.js",
+		"/home/arnav/Desktop/albums/src/components/AlbumDetail.js",
+		"/home/arnav/Desktop/albums/src/components/AlbumList.js",
+		"/home/arnav/Desktop/albums/index.ios.js",
+		"/home/arnav/Desktop/albums/package.json",
+		"/home/arnav/Desktop/albums/src/components/header.js",
+		"/home/arnav/Desktop/playerdatamodels.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input_condition",
+			"maryCalls",
+			"johnCalls",
+			"input_arr",
+			"final_probability",
+			"second_condition",
+			"first_condition",
+			"givenConditionIndex",
+			"pAlarm",
+			"BFalse_EFalse",
+			"BFalse_ETrue",
+			"BTrue_EFalse",
+			"BTrue_ETrue",
+			"prob_vals",
+			"ttable",
+			"createRow",
+			"earthquake_new",
+			"burglary_new",
+			"BFalse_EFalse",
+			"BFalse_ETrue",
+			"BTrue_EFalse",
+			"BTrue_ETrue",
+			"table",
+			"ttable",
+			"createRow",
+			"maryCalls",
+			"johnCalls",
+			"numerator",
+			"denominator",
+			"earthquake_new",
+			"burglary_new",
+			"pAlarm",
+			"pMaryCall",
+			"pJohnCall",
+			"calculate_probability",
+			"calculateProbability",
+			"johnTrue",
+			"alarmFalse",
+			"alarmTrue",
+			"maryTrue",
+			"readInput",
+			"probEarthquake",
+			"probBurglary",
+			"prob_dict",
+			"BayesianNetwork",
+			"pFeedNoWatchTVNoCatFood",
+			"pFeedWatchTVCatFood",
+			"prNoCatFood",
+			"prWatchTVnoBaseball",
+			"prWatchTVandBaseball",
+			"prBaseball",
+			"ctFeedWatchTV",
+			"ctFeedNoFood",
+			"ctFeedWatchTVCatFood",
+			"ctWatchTVandCatFood",
+			"ctWatchTVandNoCatFood",
+			"nGnO",
+			"ctNoWatchTVandCatFood",
+			"ctFeedWatchTV",
+			"ctNoWatchTVandNoCatFood",
+			"totalData",
+			"ctFeedWatchTV",
+			"ctFeedNowatchTVNoCatFood",
+			"ctNoCatFood",
+			"ctWatchTVandNoBaseball",
+			"ctWatchTVandBaseball",
+			"ctBaseball",
+			"INSERT",
+			"Maxine_Johnston",
+			"a",
+			"\",\n",
+			"app",
+			">",
+			"or",
+			"ExtractSymbol",
+			"ttEntails",
+			"notentailscount",
+			"entailscount",
+			"notentailscount",
+			"entailscount",
+			"knowledge_base",
+			"pl_true",
+			"}",
+			"P",
+			"B",
+			"S",
+			"M",
+			"S",
+			"M",
+			"P",
+			"B",
+			"S",
+			"M",
+			"S",
+			"S_1_2",
+			"M",
+			"M_1_1",
+			"M",
+			"S",
+			"M",
+			"B",
+			"P",
+			"and",
+			"S",
+			"M",
+			"iff",
+			"print",
+			"model_search",
+			"HackUTA",
+			"}</",
+			"15",
+			"#f8f8f8",
+			"\">",
+			"ramona",
+			"req.session.playerdata",
+			"58bd76b8c3d40500041c6c52",
+			"$<",
+			"System.out.println",
+			".\n",
+			"				\n",
+			"mimeMap",
+			"FIELD",
+			"OCEAN",
+			"console.log",
+			"var",
+			"console",
+			"wordpair",
+			"/game/test"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
