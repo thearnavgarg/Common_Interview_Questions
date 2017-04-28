@@ -35,6 +35,7 @@ def main():
     input_string = raw_input()
     print ( with_addtnl_ds(input_string) )
     print ( without_addtnl_ds(input_string) )
+    
 
 if (__name__ == '__main__'):
     main()
