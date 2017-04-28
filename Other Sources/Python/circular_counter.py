@@ -16,9 +16,31 @@ Output: 369485271
 127    - 5
 """
 
+'''
+Time Complexity: O(n^2)
+Space Complexity: O(n) or O(1) [considering the list is already given]
+
+'''
+
+# this would convert my string input into a list.
+def get_input_list(input):
+	input_list = []
+	for char in input:
+		input_list.append((int)(char))
+	return input_list
+
+def circular_counter(input):
+	input_list = get_input_list(input)
+	skip = 2
+	index = 0
+	while(input_list):
+		index = (skip + index) % len(input_list)
+		print input_list.pop(index)
+	
+
 def main(args):
 	input = raw_input()
-	print input
+	circular_counter(input)
 
 if (__name__ == '__main__'):
 	main(sys.argv)
