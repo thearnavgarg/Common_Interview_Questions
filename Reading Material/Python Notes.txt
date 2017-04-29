@@ -1,7 +1,3 @@
-Common Coding Interview Questions
-==================================
-Collection of all the common coding interview questions asked. 
-
 Python Data Structure Time Complexities
 ========================================
 Complexity of Python Operations
@@ -51,7 +47,7 @@ Delete        | del l[i]     | O(N)	     |
 Remove        | l.remove(...)| O(N)	     | 
 Containment   | x in/not in l| O(N)	     | searches list
 Copy          | l.copy()     | O(N)	     | Same as l[:] which is O(N)
-Pop	      | l.pop(i)     | O(N)	     | O(N-i): l.pop(0):O(N) (see above)
+Pop	          | l.pop(i)     | O(N)	     | O(N-i): l.pop(0):O(N) (see above)
 Extreme value | min(l)/max(l)| O(N)	     | searches list
 Reverse	      | l.reverse()  | O(N)	     |
 Iteration     | for v in l:  | O(N)          |
