@@ -1,5 +1,4 @@
 // return the kth to the last element
-
 #include <bits/stdc++.h>
 #include "LinkedList.h"
 
