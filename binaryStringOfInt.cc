@@ -1,6 +1,15 @@
 #include <iostream>
 #include <string>
 
+/*
+ * Return a binary string representation of a given integer.  
+ */
+
+/*
+ * Time Complexity: O(log(N))
+ * Space Complexity: O(1)
+ */
+
 std::string binaryStringofInt(int input) {
   /*
    * 3 = 0011
