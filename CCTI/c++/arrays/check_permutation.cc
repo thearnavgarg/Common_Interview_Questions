@@ -1,6 +1,10 @@
 #include <iostream>
 
 bool check_permutation(std::string input1, std::string input2) {
+  if (input1.size() != input2.size()) {
+    return false;
+  }
+
   int* charMap = new int[256];
   for (auto& ch : input1) {
     charMap[int(ch)] += 1;
@@ -12,11 +16,6 @@ bool check_permutation(std::string input1, std::string input2) {
     }
   }
 
-  for (int i = 0; i < 256; i++) {
-    if (charMap[i] > 0) {
-      return false;
-    }
-  }
   return true;
 }
 
