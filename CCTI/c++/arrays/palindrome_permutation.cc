@@ -20,7 +20,6 @@ bool solution(std::string input) {
       countOdd += 1;
     }
   }
-
   if (countOdd > 1) {
     return false;
   }
