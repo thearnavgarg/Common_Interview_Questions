@@ -1,3 +1,5 @@
+// Return the first duplicate value in the array
+
 #include <iostream>
 #include <vector>
 

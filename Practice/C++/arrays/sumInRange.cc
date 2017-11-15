@@ -1,3 +1,4 @@
+// Find the total sum of the elements in nums but suming all the elements in the ranges given in the queries.
 #include <iostream>
 #include <vector>
 #include <cmath>
