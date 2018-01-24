@@ -1,3 +1,13 @@
+'''
+
+Find the first non-occurring number in the string.
+
+For example:
+string = 'abaabcaad'
+answer = c
+'''
+
+
 def main():
     s = 'aaaaaaac'
     A = [-1]*26
