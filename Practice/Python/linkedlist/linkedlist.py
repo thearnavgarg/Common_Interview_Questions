@@ -27,11 +27,11 @@ def printLinkedList(node):
 
 def createLinkedList(size):
     random.seed()
-    data = random.randrange(0, 50)
+    data = random.randrange(1, 9)
     head = LinkedList(data)
     tmp = head
     for i in range(0, size):
-        data = random.randrange(0, 50)
+        data = random.randrange(1, 9)
         newNode = LinkedList(data)
         tmp.setNext(newNode)
         tmp = tmp.getNext()
