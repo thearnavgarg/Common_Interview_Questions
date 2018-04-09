@@ -13,6 +13,17 @@ flatten(input);
 Output: [2, 1, 3, 4, 5, 6, 7, 8]
 """
 
+def flatten_try2(input, result):
+	if not input:
+		return None
+	if type(input) == int:
+		result.append(input)
+		return result
+	for i in input:
+		result = flatten_try2(i, result)
+	return result
+
+
 def flatten_array(input, result):
 	for i in input:
 		if (type(i) is int):
@@ -25,8 +36,8 @@ def flatten_array(input, result):
 def main():
 	input = [2, 1, [3, [4, 5], 6], 7, [8]]
 	result = []
-	result = flatten_array(input, result)
-	print result
+	result = flatten_try2(input, result)
+	print(result)
 
 if __name__ == '__main__':
 	main()
