@@ -6,7 +6,7 @@ value = {60, 100, 120}
 weight = {10, 20, 30}
 total_w = 50
 
-Solution = 50
+Solution = 220
 
 
 value = {1, 4, 5, 7}
@@ -53,8 +53,7 @@ def knapsack(value, weight, total):
                 table[i][j] = max(table[i-1][j],
                                   v + table[i-1][j-w])
 
-    print(table)
     return table[len(table)-1][len(table[0])-1]
 
 
-print(knapsack([1, 4, 5, 7], [1, 3, 4, 5], 7))
+print(knapsack([60, 100, 120], [10, 20, 30], 50))
