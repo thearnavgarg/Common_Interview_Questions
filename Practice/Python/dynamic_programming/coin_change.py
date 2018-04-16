@@ -1,23 +1,47 @@
+'''
 
-def solution(coins=[7,2,3,6], total=13):
-    numTable = [1000 for x in range(0, total+1)]
-    numTable[0] = 0
-    coinTable = [-1 for x in range(0, total+1)]
-    for i in range(0, len(coins)):
-        for j in range(1, total+1):
-            if coins[i] <= j:
-                value = min(numTable[j], 1+numTable[j-coins[i]])
-                if numTable[j] != value:
-                    numTable[j] = value
-                    coinTable[j] = i
-    print('Table: {}'.format(numTable))
-    print('The min number of coins: {}'.format(numTable[total])) 
-    tmp = total
-    coinList = []
-    while tmp != 0:
-        coinList.append(coins[coinTable[tmp]])
-        tmp = tmp - coins[coinTable[tmp]]
-    print('The coins are: {}'.format(coinList))
+Coining changing problem
 
-if __name__ == '__main__':
-    solution()
+total = 13
+
+coins = 7, 2, 3, 6
+
+output = 2 (7, 6)
+
+'''
+
+'''
+
+[0, 1000, 1, 1, 2, 2, 1, 1, 2, 2, 2, 3, 2, 2]
+[-1. -1. 1. 2. 1, 2, 3, 0, 3, 1, 2, 1, 3, 3]
+
+[6, 7] and the size = 2
+
+'''
+
+def coin_changing(arr, total):
+    table = [1000 for i in range(0, total+1)]
+    table[0] = 0
+    index_table = [-1 for i in range(0, total+1)]
+
+    for idx, ele in enumerate(arr):
+        for i in range(1, len(table)):
+            if i >= ele:
+                if table[i-ele]+1 < table[i]:
+                    index_table[i] = idx
+                table[i] = min(table[i], table[i-ele]+1)
+    
+    solution = []
+    
+    if index_table[-1] != -1:
+        check = total
+        while check > 0:
+            arr_index = index_table[check]
+            solution.append(arr[arr_index])
+            check = check - arr[arr_index]
+    
+    return solution, table[len(table)-1]
+
+print(coin_changing([7, 2, 3, 6], 13))
+
+
