@@ -34,14 +34,54 @@ Output: 0
 Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.'''
 
 def ladderLength(beginWord, endWord, wordList):
-        """
-        :type beginWord: str
-        :type endWord: str
-        :type wordList: List[str]
-        :rtype: int
-        """
-    # Can't pass all the test cases. 
-    wordSet = set(wordList)
-    if endWord not in wordSet:
-        return 0
+    """
+    :type beginWord: str
+    :type endWord: str
+    :type wordList: List[str]
+    :rtype: int
+    """
+
+    def helper(wordList, path, result, graph, start, end, visited):
+        if start == end:
+            result.append(path[:])
+        if start in visited:
+            return
+        visited.add(start)
+        for word in graph[start]:
+            path.append(word)
+            helper(wordList, path, result, graph, word, end, visited)
+            path.pop()
+        
+
+    def one_transformation(word1, word2):
+        counter = 0
+        for char1, char2 in zip(word1, word2):
+            if char1 != char2:
+                counter += 1
+        if counter == 1:
+            return True
+        return False
+
+    from collections import defaultdict
+    graph = defaultdict(list)
+    if endWord not in wordList:
+        return None
+    wordList.append(beginWord)
+    for i in range(0, len(wordList)):
+        for j in range(0, len(wordList)):
+            word1, word2 = wordList[i], wordList[j]
+            if word1 != word2 and one_transformation(word1, word2):
+                graph[word1].append(word2)
+    
+    path, result = [beginWord], []
+    visited = set()
+    helper(wordList, path, result, graph, beginWord, endWord, visited)
+    return result
+
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log","cog"]
+print(ladderLength(beginWord, endWord, wordList))
+
+
 
