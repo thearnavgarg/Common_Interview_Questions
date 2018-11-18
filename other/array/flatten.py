@@ -12,7 +12,6 @@ produce a single resultant array.
 5
 6
 '''
-
 def flatten(arr):
     def helper(arr, new_arr):
         if type(arr) == int:

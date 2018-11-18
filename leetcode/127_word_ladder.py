@@ -51,7 +51,6 @@ def ladderLength(beginWord, endWord, wordList):
             path.append(word)
             helper(wordList, path, result, graph, word, end, visited)
             path.pop()
-        
 
     def one_transformation(word1, word2):
         counter = 0
